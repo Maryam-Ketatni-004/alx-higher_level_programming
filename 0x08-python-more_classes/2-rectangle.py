@@ -1,11 +1,12 @@
-#!/usr/bin/python3 
+#!/usr/bin/python3
 """
 Rectangle
 """
 
+
 class Rectangle:
     """
-    Class Rectangle that define a rectangle
+    Class Rectangle that defines a rectangle
     """
 
     def __init__(self, width=0, height=0):
@@ -13,7 +14,7 @@ class Rectangle:
         self.width = width
 
     @property
-     def height(self):
+    def height(self):
         return self.__height
 
     @height.setter
